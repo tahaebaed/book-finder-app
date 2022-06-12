@@ -1,0 +1,2 @@
+export const GET_BOOK_REQUEST = 'GET_BOOK_REQUEST';
+export const GET_BOOK_RESPONSE = 'GET_BOOK_RESPONSE';
