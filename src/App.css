@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+form {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.books-wrapper {
+  padding: 1rem 1rem;
+}
+.book-info {
+  text-align: start;
+  box-shadow: 6px 7px 7px 0px #282c345e;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.book-details_info-component {
+  text-align: start;
+  padding: 1rem;
+}
+.book-details_info-component ul {
+  list-style: none;
+}
