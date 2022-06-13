@@ -11,7 +11,9 @@ function BookInfo() {
     dispatch(fetchBookResQuest(id));
   }, [dispatch, id]);
   const book = useSelector(state => state.book);
-  return (
+  return book === 'loading' ? (
+    <p>Loading ...</p>
+  ) : (
     <div>
       <h1>{book?.volumeInfo.title}</h1>
 
